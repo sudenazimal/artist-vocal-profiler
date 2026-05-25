@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.env
+
+# Veri dosyaları (büyük, repo'ya koyma)
+data/raw/
+data/vocals/
+
+# IDE
+.vscode/
+.DS_Store
