@@ -3,10 +3,11 @@ __pycache__/
 *.pyc
 .venv/
 *.env
-
-# Veri dosyaları (büyük, repo'ya koyma)
-data/raw/
-data/vocals/
+#Data Files
+data/raw/*
+data/vocals/*
+!data/raw/.gitkeep
+!data/vocals/.gitkeep
 
 # IDE
 .vscode/
